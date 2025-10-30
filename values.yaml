@@ -15,7 +15,7 @@ ingress:
   annotations:
     nginx.ingress.kubernetes.io/ssl-redirect: "false"
   hosts:
-    - host:
+    - host: demo.sasa
       paths:
         - path: /
           pathType: Prefix
