@@ -15,7 +15,7 @@ ingress:
   annotations:
     nginx.ingress.kubernetes.io/ssl-redirect: "false"
   hosts:
-    - host: demo.local # cambialo por tu dominio
+    - host:
       paths:
         - path: /
           pathType: Prefix
