@@ -1,0 +1,8 @@
+NGINX deployed.
+
+If you enabled Ingress, browse to:
+  http(s)://<your-host>/
+
+Otherwise, port-forward:
+  kubectl port-forward svc/{{ include "nginx-helm.name" . }} 8080:80
+  open http://localhost:8080
